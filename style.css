@@ -561,7 +561,7 @@ nav .fas{
     }
     .header-text{
        
-        margin-top: 30%;
+        margin-top: 50%;
         margin-left: 1%;
         margin-right: 5%;      
     }
@@ -572,6 +572,7 @@ nav .fas{
     }
     nav .fas{
         display: block;
+        padding:1px;
         font-size: 25px;
         background: #080808;
     }
