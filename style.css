@@ -142,7 +142,7 @@ nav ul li a:hover::after{
     font-size: 70px;
     margin-top: 20px;
 }
-.header-text h1 span{
+.header-text .sq{
     color:#ff004f;
 }
 
@@ -548,12 +548,26 @@ nav .fas{
     display: none;}
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/phone-background.png);
+       
     }
-    .header-text{
+      .header-text h1 img{
+        margin-top: 10%;
+        display: block;
+    }   
+     
+    .header-text .sp{
+        display: block;
+        margin-top: 10%;
+    }
+    .header-text.br{
         margin-top: 100%;
-        font-size: 16px;
+        margin-left: 1%;
+        margin-right: 5%;
+        font-size: 15px;
+      
     }
+
+
     .header-text h1{
         font-size: 30px;
     }
