@@ -560,8 +560,8 @@ nav .fas{
         margin-top: 10%;
     }
     .header-text{
-        background:wheat;
-        margin-top: 50%;
+       
+        margin-top: 30%;
         margin-left: 1%;
         margin-right: 5%;      
     }
@@ -573,9 +573,10 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
+        background: #080808;
     }
     nav ul {
-        background: #ff004f;
+        background: #F97B22;
         position: fixed;
         top: 0;
         right: -200px;
