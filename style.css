@@ -561,7 +561,7 @@ nav .fas{
     }
     .header-text{
        
-        margin-top: 60%;
+        margin-top: 50%;
         margin-left: 1%;
         margin-right: 5%;      
     }
@@ -577,7 +577,7 @@ nav .fas{
         background: #080808;
     }
     nav ul {
-        background: #F97B22;
+        background: white;
         position: fixed;
         top: 0;
         right: -200px;
