@@ -34,19 +34,7 @@ body{
 .container{
     padding: 10px 10%;
 }
-/* .sticky {
-    position:fixed;
-    top: 0;
-    width: 80%;
-    background: rgb(255, 255, 255);
-   
-  } */
 
-
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  /* .sticky+.container{
-    padding-top: 60px;
-  } */
   
 nav{
     display: flex;
@@ -129,13 +117,15 @@ nav ul li a:hover::after{
         width: 100%;
     }
 } 
-
+#i1{
+    padding-top: 5px;
+}
     
 .header-text{
     margin-top: 23%;
     margin-left: 6%;
     font-size: 35px;
-  
+   margin-right: 6%;
 
 }
 .header-text h1{
@@ -143,7 +133,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text .sq{
-    color:#ff004f;
+  color:#F97B22;
 }
 
 /* 
