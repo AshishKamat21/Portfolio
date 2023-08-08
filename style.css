@@ -565,7 +565,7 @@ nav .fas{
         padding:2px;
         font-size: 25px;
         background: #080808;
-         position: absolute;
+        z-index:2;
     }
     nav ul {
         background: white;
@@ -577,18 +577,19 @@ nav .fas{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-         position: absolute;
+        
     }
     nav ul li{
         display: block;
         margin: 25px;
-         position: absolute;
+         z-index: 2;
     }
     nav ul .fas{
         position: absolute;
         top:25px;
         left: 25px;
         cursor: pointer;
+         z-index: 2;
     }
     .subtitle{
         font-size: 40px;
